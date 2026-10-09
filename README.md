@@ -30,8 +30,11 @@ regarding how I configure the various Emacs packages I have published:
  - `mrscpi-in-emacs`          (https://github.com/richmit/mrscpi-in-emacs)
  
 On that front look near the end of the `init.el` file for lines like
+
         (mjr-dotfile-message "PKG SETUP: NAME-OF-PACKAGE")
+
 or
+
         (with-eval-after-load "NAME-OF-PACKAGE"
 
 ## Installing This Config
