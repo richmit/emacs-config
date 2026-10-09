@@ -47,11 +47,15 @@ don't...
 That said, here is how I would bootstrap a new Emacs config:
 
  - Put the files in place
-           git clone https://github.com/richmit/dot-emacs
+
+git clone https://github.com/richmit/dot-emacs
            cd dot-emacs
            test -e ~/.emacs.d || mkdir ~/.emacs.d
            cp dot-emacs/init.el ~/.emacs.d/init.el
            cp dot-emacs/alias ~/.emacs.d/alias
+
  - Start up Emacs
+
  - Let it install anything it asks about
+
  - Restart Emacs
